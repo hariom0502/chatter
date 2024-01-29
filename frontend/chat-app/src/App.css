@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Oswald:wght@200&family=Poppins:wght@200&family=Work+Sans:wght@300&display=swap');
+
+.App{
+    min-height: 100vh;
+    background-image: url(./background.webp);
+    background-size: cover;
+    background-position: center;
+    color:black
+}

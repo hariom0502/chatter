@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
-const chatmodel = mongoose.schema(
+const chatmodel = mongoose.Schema(
   {
     chatName: { type: String, trim: true },
-    isGroupMessage: { type: Boolean, default: false },
+    isGroupChat: { type: Boolean, default: false },
     users: [{ type: mongoose.Schema.Types.ObjectId, ref: "User" }],
     latestMessage: {
       type: mongoose.Schema.Types.ObjectId,
